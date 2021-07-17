@@ -42,6 +42,7 @@ extension HomeVC{
         tblView.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0)
         tblView.separatorStyle = .none
         self.view.layoutIfNeeded()
+        setSelectedIndex(index: 0)
     }
     
     @IBAction func btnTabTapped(_ sender: UIButton){
@@ -121,7 +122,10 @@ extension HomeVC{
 extension HomeVC{
     func showPopup(title: String, msg : String){
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         self.present(alert, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.dismiss(animated: true, completion: nil)
+        }
+
     }
 }

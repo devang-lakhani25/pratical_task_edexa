@@ -27,28 +27,36 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUc-cK-rMv">
                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="48"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                                        <state key="normal" title="All"/>
+                                                        <state key="normal" title="All">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnTabTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g3N-G4-vR9"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6W-Yk-xYV">
                                                         <rect key="frame" x="106" y="0.0" width="96" height="48"/>
-                                                        <state key="normal" title="Chicago"/>
+                                                        <state key="normal" title="Chicago">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnTabTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qMU-Cm-s4o"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxd-vD-jq2">
                                                         <rect key="frame" x="212" y="0.0" width="96" height="48"/>
-                                                        <state key="normal" title="NewYork"/>
+                                                        <state key="normal" title="NewYork">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnTabTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CP8-aT-hPg"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVb-vN-bfK">
                                                         <rect key="frame" x="318" y="0.0" width="96" height="48"/>
-                                                        <state key="normal" title="Los Angeles"/>
+                                                        <state key="normal" title="Los Angeles">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="btnTabTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ko2-CD-fBR"/>
                                                         </connections>
